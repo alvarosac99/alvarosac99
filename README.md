@@ -43,9 +43,3 @@ También trabajo con RAG, LLMs y fine-tuning, y con Quarkus, Proxmox y VMware.
 ## Actividad
 
 <img width="100%" src="profile-3d-contrib/profile-naranja.svg" alt="Contribuciones en 3D"/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alvarosac99/alvarosac99/output/github-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alvarosac99/alvarosac99/output/github-snake.svg"/>
-  <img width="100%" alt="Contribuciones" src="https://raw.githubusercontent.com/alvarosac99/alvarosac99/output/github-snake.svg"/>
-</picture>
