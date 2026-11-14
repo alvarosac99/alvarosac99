@@ -1,0 +1,31 @@
+name: Contribuciones 3D
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/3d-contrib.json", ".github/workflows/profile-3d.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: .github/3d-contrib.json
+      - name: Commit
+        run: |
+          git config user.name "Álvaro Sebastián Acosta Cortizas"
+          git config user.email "145587906+alvarosac99@users.noreply.github.com"
+          git add -A profile-3d-contrib
+          if git commit -m "Actualizar contribuciones 3D"; then
+            git pull --rebase && git push
+          fi
