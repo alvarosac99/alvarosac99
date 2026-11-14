@@ -37,5 +37,6 @@ También trabajo con RAG, LLMs y fine-tuning, y con Quarkus, Proxmox y VMware.
 
 ## Formación
 
+- **FP Superior en Mantenimiento Electrónico**, IES Fernández Vallín, Gijón (2026–actualidad)
 - **FP Superior en Desarrollo de Aplicaciones Multiplataforma**, IES Doctor Fleming, Oviedo (2023–2025)
 - **CCN-CERT: Auditorías en el ENS y seguridad TIC** (2026)
