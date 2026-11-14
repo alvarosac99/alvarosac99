@@ -39,7 +39,3 @@ También trabajo con RAG, LLMs y fine-tuning, y con Quarkus, Proxmox y VMware.
 
 - **FP Superior en Desarrollo de Aplicaciones Multiplataforma**, IES Doctor Fleming, Oviedo (2023–2025)
 - **CCN-CERT: Auditorías en el ENS y seguridad TIC** (2026)
-
-## Actividad
-
-<img width="100%" src="profile-3d-contrib/profile-naranja.svg" alt="Contribuciones en 3D"/>
